@@ -71,7 +71,8 @@ public class User implements Serializable {
 
 	@Override
 	public String toString() {
-		return "MappedStatement [id=" + id + ", username=" + username + ", password=" + password + ", realname="
-				+ realname + ", sex=" + sex + ", age=" + age + "]";
+		return "User [id=" + id + ", username=" + username + ", password=" + password + ", realname=" + realname
+				+ ", sex=" + sex + ", age=" + age + "]";
 	}
+
 }
